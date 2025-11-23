@@ -10,8 +10,11 @@ DecisionLog is an AI-powered system design interviewer that helps developers bra
 ### Ask about anything you want to build
 ![Interview in Progress](screenshots/2.png)
 
-### DecisionLog will ask you some questions and generate your architecture document
+### DecisionLog will ask you some questions about your project
 ![Architecture Document](screenshots/3.png)
+
+### An architecture doc will be generated for you
+![Architecture Document](screenshots/4.png)
 
 ## Prerequisites
 
