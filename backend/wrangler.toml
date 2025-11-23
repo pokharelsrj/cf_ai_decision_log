@@ -1,0 +1,18 @@
+name = "decision-log-backend"
+main = "src/index.ts"
+compatibility_date = "2024-05-12"
+
+[durable_objects]
+bindings = [
+  { name = "DECISION_LOG_AGENT", class_name = "DecisionLogAgent" }
+]
+
+[[migrations]]
+tag = "v1"
+new_classes = ["DecisionLogAgent"]
+
+[ai]
+binding = "AI"
+
+[observability]
+enabled = true
